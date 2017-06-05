@@ -211,7 +211,8 @@ Open **https://<b><i>app-name</i></b>.mybluemix.net/** in your browser to try ou
 Starting with this step, you'll begin to examine and modify the code. A syntax-highlighting editor with multiple-tabs support makes it much easier to work with the multiple JavaScript and template source code files.
 This diagram shows how the app works:
 
-pic 3.1
+<img src="img/n3.1.png" align="left" width="60%"  >
+<br clear="all" />
 
 Each web request for a page of the Lauren's Lovely Landscapes store is routed by your code to one of the templates. When routing to the template, your code attaches a JavaScript object that contains website title information. The template uses this object to render its title (Lauren's Lovely Landscapes).
 
@@ -252,7 +253,8 @@ npm install
 ```
 This is the standard way to tell npm to look into the package.json file and then download and install all dependencies of this app. npm creates a node_modules directory and places all the downloaded dependencies there: 
 
-pic 4.1
+<img src="img/n4.1.png" align="left" width="40%"  >
+<br clear="all" />
 
 * Start the app in the Express server:
 ```
@@ -260,7 +262,8 @@ node app.js
 ```
 At the command console, note the port that the Express server is running on (http://localhost:6002/ in this example): 
 
-pic 4.2
+<img src="img/n4.2.png" align="left" width="40%"  >
+<br clear="all" />
 
 * Point a browser to the Express server at http://localhost:port_number
 * Try out this instance of the application and see if you notice any difference from the Bluemix-hosted one. Because you're looking at the same app, produced with the same code, there should be no noticeable differences between the two.
@@ -278,7 +281,8 @@ It's good Node.js coding practice to write unit tests for your modules.
 ```
 You can see both tests being run. In the results printed to your screen, a green check mark appears next to each passing test, and mocha reports the total number of passing tests. All unit tests passed:
 
-pic 5.1
+<img src="img/n5.1.png" align="left" width="40%"  >
+<br clear="all" />
 
 6. Modify the code and rerun the app
 

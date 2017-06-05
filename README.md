@@ -31,7 +31,8 @@ Make sure you are logged into your Bluemix account.(To check, run <kbd class="ph
 <pre>
 bx cf push <b><i>app-name</i></b> -p lauren.war
 </pre>
-**The name you choose for your application must be unique on Bluemix — not used by any other Bluemix user. You'll get an error if the name (called a route) is taken.**
+**The name you choose for your application must be unique on Bluemix — not used by any other Bluemix user. You'll get an error if the name (called a route) is taken.**   
+
 The command that you just ran will: 
 * Uploads the WAR file to Bluemix
 * Runs the Liberty profile buildpack in Bluemix

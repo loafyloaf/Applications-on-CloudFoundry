@@ -19,12 +19,12 @@ Make sure you run <kbd class="ph userinput">bx login</kbd> command and create th
 * IBM Eclipse Tools for Bluemix. 
 * The Liberty profile V8.5.5.5 (or later) runtime. You can either install it directly or download a Liberty profile installation from within Eclipse. If given a choice, select web profile.
 ### Steps:
-1. [Download the sample Java web app](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=1010776&amp;filename=javatutorial1_code_0803.zip&amp;method=http&amp;locale)    
+#### 1. [Download the sample Java web app](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=1010776&amp;filename=javatutorial1_code_0803.zip&amp;method=http&amp;locale)    
 Save javatutorial1_code_0803.zip to your computer and extract its contents, which consists of:    
 * **lauren.war**: A standard Java EE WAR file, containing the servlets, JSP, and web.xml file that constitute the application
 * **lllproject.zip**: An Eclipse project archive, containing the complete Eclipse project for this tutorial   
 
-2. Deploy the WAR file to Bluemix.  
+#### 2. Deploy the WAR file to Bluemix.  
 You can deploy the lauren.war file directly to JEE-compatible servers such as a Liberty profile server running either on your own computer or in the Bluemix cloud. 
 
 Make sure you are logged into your Bluemix account.(To check, run <kbd class="ph userinput">bx login</kbd>)
@@ -42,7 +42,7 @@ The command that you just ran will:
 
 Open **https://<b><i>app-name</i></b>.mybluemix.net/** in your browser to try out the app — a simple web store called Lauren's Lovely Landscapes. The store currently sells three prints; each print's page displays the associated name, image, and price.
 
-3. Import the app into your Eclipse workspace  
+#### 3. Import the app into your Eclipse workspace  
 Starting with this step, you'll begin to examine and modify the code. The Eclipse IDE makes it easy to work with the code and navigate the big project directories tree when you develop Java web applications.
 * Start your Eclipse IDE and select **File > Import**. Then select **General > Existing Projects into Workspace**:
 
@@ -57,7 +57,7 @@ Starting with this step, you'll begin to examine and modify the code. The Eclips
 Click **Finish**.   
 he LaurenLandscapesJava project is now imported into your workspace. You can see its structure in the Enterprise Explorer pane on the left. The next step familiarizes you with the project and the code.   
 
-4. Examine the code structure.  
+#### 4. Examine the code structure.  
 With your project open in Eclipse, take a look at the Enterprise Explorer pane on the left:
 <img src="img/4.1.png" align="left" width="40%"  >
 <br clear="all" />
@@ -93,7 +93,7 @@ If you examine one of the JSP files — alaska.jsp, for instance — you can see
 ...
 ```
 
-5. Run the app on the Liberty profile with Eclipse.  
+#### 5. Run the app on the Liberty profile with Eclipse.  
 You're now ready to run the app locally on an instance of the Liberty profile that's managed by Eclipse:
 
 Select the project in the Enterprise Explorer, right-click, and select **RunAs > Run on Server...** to open a server-selection dialog box.
@@ -112,7 +112,7 @@ The selection you just made starts the local instance of the Liberty profile, lo
 
 Try out this instance of the application and see if you notice any difference from the Bluemix-hosted one. Because you're looking at the same app, produced with the same code, there should be no noticeable differences between the two.
 
-6. Run JUnit tests
+#### 6. Run JUnit tests
 It's good Java coding practice to write unit tests for your classes.
 
 The WebsiteTitle class comes with two unit tests. To run the tests, follow this sequence:
@@ -125,7 +125,7 @@ You can see both tests being run. Green status indicates that all unit tests wer
 <img src="img/6.1.png" align="left" width="60%"  >
 <br clear="all" />
 
-7. Modify the code and rerun the app
+#### 7. Modify the code and rerun the app
 In this step, you'll modify the price of a print and see it updated on the locally running website right away.
 * In the Enterprise Explorer in Eclipse, click the antarctica.jsp file and look for the price in the source code.
 * Change the price from 100.00 to 99.99 and save the file. The changed code should look like: 
@@ -136,7 +136,7 @@ In this step, you'll modify the price of a print and see it updated on the local
 * Use the built-in browser in Eclipse to browse to the app.
 * Select the Antarctica print and note the print's changed price.
 
-8. Rerun the JUnit tests
+#### 8. Rerun the JUnit tests
 To ensure that your code changes don't break anything, get into the habit of running unit tests every time an app is modified.
 
 To rerun the unit tests:
@@ -147,7 +147,7 @@ To rerun the unit tests:
 
 Once again, you see the green status, indicating that all unit tests were successful.
 
-9. Deploy the changed code to Bluemix
+#### 9. Deploy the changed code to Bluemix
 To let everyone on the Internet know about the Antarctica print's new price, you'll deploy the changed app to Bluemix. In this step, you see an even easier way to deploy the project to Bluemix than using a WAR file — namely, using the IBM Eclipse Tools for Bluemix to package up your Liberty profile server instance and deploy it on Bluemix:
 
 * In Eclipse, stop the local Liberty profile server instance by clicking the square red button. Now you can see the stopped status associated with the server: 
@@ -180,7 +180,7 @@ After successful deployment, try out the app by pointing any web browser to:
 [Node.js](http://nodejs.org/download/) 0.12.6 or later   
 A text editor, preferably one with JavaScript syntax highlighting, such as Sublime Text (available in a free trial version) or an open source editor such as Atom.
 
-1.[Download the code](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=1013070&filename=nodejstutorial1.zip&method=http&locale=)for the sample Node.js web app, nodejstutorial1.zip.
+#### 1.[Download the code](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=1013070&filename=nodejstutorial1.zip&method=http&locale=)for the sample Node.js web app, nodejstutorial1.zip.
 
 Save nodejstutorial1.zip to your computer and extract its contents, which consists of the following files and directories:
 * **app.js**, the main executable of the app, starts the Express server that handles web requests.
@@ -190,7 +190,7 @@ Save nodejstutorial1.zip to your computer and extract its contents, which consis
 * **public** is a directory that contains all the static assets of the app, which can include CSS, images, and client-side JavaScript code that runs on the browser.
 * **test** is a directory that contains unit tests for the websiteTitle module.
 
-2. Deploy the app to Bluemix
+#### 2. Deploy the app to Bluemix
 
 This app, like most Node.js web apps, can be deployed immediately to Bluemix with no additional modification or configuration. You'll deploy it now to Bluemix:   
 Make sure you are logged into your Bluemix account.(To check, run <kbd class="ph userinput">bx login</kbd>)
@@ -207,7 +207,7 @@ The command that you just ran will:
 
 Open **https://<b><i>app-name</i></b>.mybluemix.net/** in your browser to try out the app — a simple web store called Lauren's Lovely Landscapes. The store currently sells three prints; each print's page displays the associated name, image, and price.
 
-3. Examine the code structure
+#### 3. Examine the code structure
 Starting with this step, you'll begin to examine and modify the code. A syntax-highlighting editor with multiple-tabs support makes it much easier to work with the multiple JavaScript and template source code files.
 This diagram shows how the app works:
 
@@ -246,7 +246,7 @@ app.listen(appEnv.port, appEnv.bind, function() {
 ...
 }
 ```
-4. Run the app on your computer
+#### 4. Run the app on your computer
 * At the root directory of your app, run:
 ```
 npm install
@@ -268,7 +268,7 @@ At the command console, note the port that the Express server is running on (htt
 * Point a browser to the Express server at http://localhost:port_number
 * Try out this instance of the application and see if you notice any difference from the Bluemix-hosted one. Because you're looking at the same app, produced with the same code, there should be no noticeable differences between the two.
 
-5. Run unit tests
+#### 5. Run unit tests
 It's good Node.js coding practice to write unit tests for your modules.
 
 * If you don't already have the mocha unit-testing framework installed on your system, run this command to install it:
@@ -284,7 +284,7 @@ You can see both tests being run. In the results printed to your screen, a green
 <img src="img/n5-1.png" align="left" width="40%"  >
 <br clear="all" />
 
-6. Modify the code and rerun the app
+#### 6. Modify the code and rerun the app
 
 In this step, you'll modify the price of a print and see it updated on the locally running website right away.
 * In your text editor, open up the antarctica.jade file and look for the price in the source code.
@@ -299,7 +299,7 @@ node app.js
 * Point a browser to the Express server
 * Select the Antarctica print and note the print's changed price.
 
-7. Rerun the unit tests
+#### 7. Rerun the unit tests
 
 To ensure that your code changes don't break anything, get into the habit of running unit tests every time an app is modified.
 
@@ -307,7 +307,7 @@ Rerun the unit tests with the mocha command. Once again, in the screen output yo
 
 When you develop Node.js code in a team environment, you want to run all unit tests every single time you commit (modify and contribute) your code to the team's repository. Bluemix offers DevOps services that can be configured to run the unit tests automatically as part of the workflow to build the project. You'll learn much more about DevOps services in the next tutorial in this series.
 
-8. Deploy the changed code to Bluemix
+#### 8. Deploy the changed code to Bluemix
 
 To let everyone on the Internet know about the Antarctica print's new price, you'll deploy the changed app to Bluemix.
 

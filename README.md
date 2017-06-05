@@ -12,7 +12,7 @@ Cloud Foundry
 [Create an IBM Bluemix account](https://console.ng.bluemix.net/).  
 After that, please download the [Bluemix CLI.](http://clis.ng.bluemix.net/ui/home.html)    
 Make sure you run <kbd class="ph userinput">bx login</kbd> command and create the org and space for the demo.   
-## Scenario One <a name="one"></a>
+## Deploy a sample Java app <a name="one"></a>
 ### Technology involved:
 * Latest Java JDK
 * Eclipse IDE for Java EE Developers Luna
@@ -175,8 +175,8 @@ To let everyone on the Internet know about the Antarctica print's new price, you
 After successful deployment, try out the app by pointing any web browser to:
 **https://<b><i>app-name</i></b>.mybluemix.net/*
 
-## Scenario Two <a name="two"></a>
-## Scenario Three <a name="three"></a>
+## Deploy a sample JS app <a name="two"></a>
+## Deploy a sample PHP app <a name="three"></a>
 ## Glossary and status messages
 Let's review some terms and status messages you're likely to encounter as you use Bluemix.
 

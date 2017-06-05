@@ -46,11 +46,12 @@ Open **https://<b><i>app-name</i></b>.mybluemix.net/** in your browser to try ou
 Starting with this step, you'll begin to examine and modify the code. The Eclipse IDE makes it easy to work with the code and navigate the big project directories tree when you develop Java web applications.
 * Start your Eclipse IDE and select **File > Import**. Then select **General > Existing Projects into Workspace**:
 
-pic
+<img src="img/3.1.png" align="left" width="40%"  >
+<br clear="all" />
 
 * Click the **Select archive file** option: 
-
-pic
+<img src="img/3.2.png" align="left" width="100%"  >
+<br clear="all" />
 
 * Browse to and select the lllproject.zip file.
 Click **Finish**.   
@@ -58,14 +59,17 @@ he LaurenLandscapesJava project is now imported into your workspace. You can see
 
 4. Examine the code structure.  
 With your project open in Eclipse, take a look at the Enterprise Explorer pane on the left:
+<img src="img/4.1.png" align="left" width="40%"  >
+<br clear="all" />
 
-pic
 
 Expand Java Resources to see the Java source code files. Expand WebContent to see the four JSP files that make up the website:
 
 This diagram shows how the app works:
 
-pic
+<img src="img/4.2.png" align="left" width="60%"  >
+<br clear="all" />
+
 
 Web requests for a page of the Lauren's Lovely Landscapes store first go through the DispatchServlet and then are forwarded to one of the JSP pages. The DispatchServlet attaches an instance of the WebsiteTitle POJO (Plain Old Java Object) to the request. The request is passed on to the JSP page. The JSP page uses the WebsiteTitle to set the title to Lauren's Lovely Landscapes.
 
@@ -96,11 +100,15 @@ Select the project in the Enterprise Explorer, right-click, and select **RunAs >
     
 Expand the localhost folder and select the local Liberty profile server: 
 
-pic
+<img src="img/5.1.png" align="left" width="40%"  >
+<br clear="all" />
+
 
 The selection you just made starts the local instance of the Liberty profile, loads the app, and points the Eclipse internal browser to the running application: 
 
-pic
+<img src="img/5.2.png" align="left" width="40%"  >
+<br clear="all" />
+
 
 Try out this instance of the application and see if you notice any difference from the Bluemix-hosted one. Because you're looking at the same app, produced with the same code, there should be no noticeable differences between the two.
 
@@ -114,7 +122,8 @@ The WebsiteTitle class comes with two unit tests. To run the tests, follow this 
 
 You can see both tests being run. Green status indicates that all unit tests were successful:
 
-pic
+<img src="img/6.1.png" align="left" width="60%"  >
+<br clear="all" />
 
 7. Modify the code and rerun the app
 In this step, you'll modify the price of a print and see it updated on the locally running website right away.
@@ -143,17 +152,23 @@ To let everyone on the Internet know about the Antarctica print's new price, you
 
 * In Eclipse, stop the local Liberty profile server instance by clicking the square red button. Now you can see the stopped status associated with the server: 
 
-pic
+<img src="img/9.1.png" align="left" width="60%"  >
+<br clear="all" />
+
 
 * Right-click the Liberty profile server in the Servers pane and select **Utilities > Package Server to IBM Bluemix**. You may need to add the Bluemix server: Click the **Add Server... **link in the **Select IBM Bluemix Server** dialog and follow the instructions.
 * Log in to your Bluemix account when prompted.
 * Provide a name for the application. You can either reuse the existing app name or create a new one: 
 
-pic
+<img src="img/9.2.png" align="left" width="40%"  >
+<br clear="all" />
+
 
 * In the Launch deployment dialog box, you can increase the memory limit if you like, but for this app 512MB is sufficient: 
 
-pic
+<img src="img/9.3.png" align="left" width="40%"  >
+<br clear="all" />
+
 
 * Click **Finish** to start the deployment. You see a series of status messages, and the server is deployed and started on Bluemix.
 

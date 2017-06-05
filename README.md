@@ -50,7 +50,7 @@ Starting with this step, you'll begin to examine and modify the code. The Eclips
 <br clear="all" />
 
 * Click the **Select archive file** option: 
-<img src="img/3.2.png" align="left" width="100%"  >
+<img src="img/3.2.png" align="left" width="40%"  >
 <br clear="all" />
 
 * Browse to and select the lllproject.zip file.
@@ -106,7 +106,7 @@ Expand the localhost folder and select the local Liberty profile server:
 
 The selection you just made starts the local instance of the Liberty profile, loads the app, and points the Eclipse internal browser to the running application: 
 
-<img src="img/5.2.png" align="left" width="40%"  >
+<img src="img/5.2.png" align="left" width="60%"  >
 <br clear="all" />
 
 

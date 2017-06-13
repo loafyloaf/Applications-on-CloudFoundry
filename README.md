@@ -1,7 +1,7 @@
 # Applications-on-CloudFoundry
 IBM Bluemix is where enterprise developers build, run, scale, and manage applications. Ready to start creating your own apps on Bluemix? This tutorial walks you through the steps for hosting you application. We will go through the basic steps to launch Java, Node and PHP applications. You can pick the language you are comfortable with to go through the steps. After that, we will consume the services provided by Bluemix.
 ## Scenarios
-* **[Deploy a sample Java app](#one)**
+* **[Deploy a sample Java app](doc/java.md)**
 * **[Deploy a sample JS app](#two)**
 * **[Deploy a sample PHP app](#three)**
 ## Included components

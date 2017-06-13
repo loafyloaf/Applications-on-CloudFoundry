@@ -3,7 +3,7 @@
 [Node.js](http://nodejs.org/download/) 0.12.6 or later   
 A text editor, preferably one with JavaScript syntax highlighting, such as Sublime Text (available in a free trial version) or an open source editor such as Atom.
 
-#### 1.[Download the code](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=1013070&filename=nodejstutorial1.zip&method=http&locale=)for the sample Node.js web app, nodejstutorial1.zip.
+#### 1.[Download the code](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=1013070&filename=nodejstutorial1.zip&method=http&locale=) for the sample Node.js web app, nodejstutorial1.zip.
 
 Save nodejstutorial1.zip to your computer and extract its contents, which consists of the following files and directories:
 * **app.js**, the main executable of the app, starts the Express server that handles web requests.

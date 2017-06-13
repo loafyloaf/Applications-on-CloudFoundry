@@ -1,4 +1,4 @@
-## Deploy a sample Java app <a name="one"></a>
+## Deploy a sample Java app 
 ### Technology involved:
 * Latest Java JDK
 * Eclipse IDE for Java EE Developers Luna

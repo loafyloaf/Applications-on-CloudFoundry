@@ -1,4 +1,4 @@
-## Deploy a sample JS app <a name="two"></a>
+## Deploy a sample JS app 
 ### Technology involved:
 [Node.js](http://nodejs.org/download/) 0.12.6 or later   
 A text editor, preferably one with JavaScript syntax highlighting, such as Sublime Text (available in a free trial version) or an open source editor such as Atom.

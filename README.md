@@ -13,7 +13,6 @@ Cloud Foundry
 After that, please download the [Bluemix CLI.](http://clis.ng.bluemix.net/ui/home.html)    
 Make sure you run <kbd class="ph userinput">bx login</kbd> command and create the org and space for the demo.   
 
-## Deploy a sample PHP app <a name="three"></a>
 ## Glossary and status messages
 Let's review some terms and status messages you're likely to encounter as you use Bluemix.
 
